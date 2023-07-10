@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.background {
+  background: url(./images/bg-tablet-pattern.svg) top right repeat;
+  background-size: cover;
+}
+/* nav styling starts here */
+/* --------------------------------- */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+.container img {
+  width: 120px;
+}
+.container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.container li {
+  list-style: none;
+}
+.container a {
+  text-decoration: none;
+  color: black;
+}
+.navbutton {
+  font-size: 0.8rem;
+  padding: 1em 2em;
+  background-color: hsl(12, 88%, 59%);
+  border-radius: 30px;
+}
+/* nav styling ends here */
+/* --------------------------------- */
+/* herosection starts here */
+.herosection {
+  width: 80%;
+  margin: 2.5rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.herosection img {
+  width: 450px;
+}
+.herosection div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 350px;
+  width: 400px;
+}
+.herosection h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.herosection p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  width: 80%;
+  line-height: 1.5;
+  color: rgb(142, 138, 138);
+}
+.herosection a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+  padding: 1em 2em;
+  background-color: hsl(12, 88%, 59%);
+  border-radius: 30px;
+  width: 125px;
+}
+/* herosection styling ends here */
+/* --------------------------------- */
+/* mainsection styling starts here */
+.mainsection {
+  width: 80%;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+.mainsection-1 {
+  width: 400px;
+}
+.mainsection-1 h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.mainsection-1 p {
+  width: 285px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-top: 1.5em;
+  line-height: 1.5;
+  color: rgb(142, 138, 138);
+}
+.mainsection-2 {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+}
+.mainsection-2 span {
+  background-color: hsl(12, 88%, 59%);
+  font-size: 1rem;
+  color: white;
+  padding: 0.5em 1.2em;
+  border-radius: 20px;
+}
+.mainsection-2 h2 {
+  font-size: 1rem;
+}
+.number-1,
+.number-2,
+.number-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.number-1 div,
+.number-2 div,
+.number-3 div {
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.number-1 p,
+.number-2 p,
+.number-3 p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  width: 400px;
+  line-height: 1.5;
+  color: rgb(142, 138, 138);
+}
+.number-2 p {
+  padding-right: 2em;
+}
+.number-3 p {
+  padding-right: 3.5em;
+}
+/* mainsection styling ends here */
+/* --------------------------------- */
+/* reviewsection styling starts here */
+.reviewsection {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 9rem auto;
+}
+.reviewsection > div {
+  margin: 2rem auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 230px;
+}
+.reviewsection h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.reviewsection h3 {
+  color: rgb(2, 2, 149);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.reviewsection p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  width: 350px;
+  line-height: 1.5;
+  color: rgb(142, 138, 138);
+}
+.reviewsection img {
+  width: 100px;
+}
+.person-1,
+.person-2,
+.person-3 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.reviewsection a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+  padding: 1em 2em;
+  background-color: hsl(12, 88%, 59%);
+  border-radius: 30px;
+  width: 125px;
+  box-shadow: 0 10px 10px -5px rgb(242, 95, 58);
+}
+/* reviewsection styling ends here */
+/* --------------------------------- */
+/* simplify styling starts here */
+.Simplify {
+  background-image: url(./images/bg-tablet-pattern.svg) left top;
+  background-color: rgb(242, 95, 58);
+  background-size: cover;
+  height: 200px;
+}
+.Simplify .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+}
+.Simplify h1 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  width: 450px;
+}
+.Simplify a {
+  text-decoration: none;
+  color: rgb(242, 95, 58);
+  font-size: 0.8rem;
+  padding: 1em 2em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  width: 125px;
+}
+/*  simplify styling ends here */
+/* --------------------------------- */
+/* footer styling starts here */
+.footer {
+  color: rgb(142, 138, 138);
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(24, 17, 17);
+}
+.footer div {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.social-icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer li {
+  list-style: none;
+}
+.ul-1,
+.ul-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.ul-2 {
+  height: 70px;
+}
+.ul-1 {
+  height: 100px;
+}
