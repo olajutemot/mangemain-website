@@ -43,6 +43,7 @@
   background-color: hsl(12, 88%, 59%);
   border-radius: 30px;
 }
+
 /* nav styling ends here */
 /* --------------------------------- */
 /* herosection starts here */
@@ -52,7 +53,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
 }
 .herosection img {
   width: 450px;
@@ -155,25 +155,64 @@
 .number-3 p {
   padding-right: 3.5em;
 }
+@media screen and (max-width: 750px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .container ul {
+    display: none;
+  }
+  .navbutton {
+    font-size: 0.6rem;
+    padding: 0.8em 1.2em;
+  }
+  .herosection {
+    width: 90%;
+    display: block;
+    margin: 1rem auto;
+    padding: 0;
+  }
+  .herosection img {
+    width: 300px;
+  }
+  .mainsection {
+    width: 90%;
+    display: block;
+    margin: 1rem auto;
+  }
+  .mainsection-2 {
+    width: 100%;
+    margin: 1rem auto;
+  }
+  .mainsection-2 p {
+    width: 90%;
+  }
+  .mainsection-2 span {
+    font-size: 0.8rem;
+    padding: 0.5em 1.2em;
+  }
+}
 /* mainsection styling ends here */
 /* --------------------------------- */
 /* reviewsection styling starts here */
 .reviewsection {
-  height: 450px;
+  height: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin: 9rem auto;
 }
 .reviewsection > div {
-  margin: 2rem auto;
   width: 100%;
+  height: 250px;
   text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 230px;
 }
 .reviewsection h1 {
   font-size: 2rem;
@@ -197,10 +236,10 @@
 .person-1,
 .person-2,
 .person-3 {
-  height: 100%;
+  height: inherit;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .reviewsection a {
@@ -245,6 +284,7 @@
   border-radius: 30px;
   width: 125px;
 }
+
 /*  simplify styling ends here */
 /* --------------------------------- */
 /* footer styling starts here */
@@ -286,4 +326,95 @@
 }
 .ul-1 {
   height: 100px;
+}
+#updatetext,
+.updatetext a {
+  border-radius: 30px;
+  font-size: 0.5rem;
+  padding: 1em 2em;
+}
+.updatetext a {
+  text-decoration: none;
+  background-color: rgb(242, 95, 58);
+}
+.Copyright {
+  font-size: 0.7rem;
+}
+/* --------------------------------
+Media query started 
+--------------------------------- */
+@media screen and (max-width: 750px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .container ul {
+    display: none;
+  }
+  .navbutton {
+    font-size: 0.6rem;
+    padding: 0.8em 1.2em;
+  }
+  .herosection {
+    width: 90%;
+    display: block;
+    margin: 1rem auto;
+    padding: 0;
+  }
+  .herosection img {
+    width: 300px;
+  }
+  .mainsection {
+    width: 90%;
+    display: block;
+    margin: 1rem auto;
+  }
+  .mainsection-2 {
+    width: 100%;
+    margin: 1rem auto;
+  }
+  .mainsection-2 p {
+    width: 90%;
+  }
+  .mainsection-2 span {
+    font-size: 0.8rem;
+    padding: 0.5em 1.2em;
+  }
+  .reviewsection {
+    margin: 1rem auto;
+    height: auto;
+  }
+  .reviewsection > div {
+    display: block;
+    height: auto;
+  }
+  .person-1,
+  .person-2,
+  .person-3 {
+    display: block;
+  }
+  .reviewsection a {
+    display: none;
+  }
+  .Simplify {
+    height: 150px;
+  }
+  .Simplify .container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Simplify h1 {
+    width: auto;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .footer ul {
+    display: none;
+  }
 }
